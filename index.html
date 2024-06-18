@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Who are ya?</title>
+
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="vars.css">
+        <link rel='stylesheet' href='styles.css'>
+
+        <link rel="icon" href="assets/cs2white.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,500;1,500&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,500;1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/fad9bed69e.js" crossorigin="anonymous"></script>
+
+
+    </head>
+
+
+    <body>
+        <div class='header'>
+            <nav>
+                <a href='/'>
+                    <span>Who are ya?</span>
+                </a>
+                <img src="assets/CUTcs2logowhite.png" alt='CS2 logo'>
+            </nav>
+        </div>
+        <center>
+            <button class="btStart" onclick="start()" id="startbt">Start game</button>
+        </center>
+
+        <div class='card hidden' id="guesscard">
+            <center>
+            <div class='card-info'>
+                <img src='assets/playerplaceholder.png' alt='Player image' id="playerPic">
+                <div class='card-info__text'>
+                    <span id="spanGuess">?</span>
+                    <div class="reveal hidden" id="revealius">
+                        <div class='card-info__text'>
+                            <span class='card-info__guessed-name' id="resName"></span>
+                            <br>
+                            <span class='card-info__guessed-nick' id="resNick"></span>
+                        </div>
+                        <div class='card-info__extra'>
+                            <span class='card-info__guessed-flag'>
+                                <img src="" style="
+                                height: 15px;
+                                width: 25px;
+                                margin: 0px;
+                                padding: 0px 10px;" id="guessed-flag">
+                            </span>
+                            <span class='card-info__guessed-name' id="resTeam">
+                                
+                            </span>
+                            <span class='card-info__guessed-name' id="resRole">
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class='card-guess' id="card-guess">
+                    <!-- add back form so i can guess with enter after -->
+                    <input name="guessed" id="guessed" type='text' placeholder='Type your guess: ' autocomplete="off">
+                    <button onclick="search()">Guess</button>
+                </div>
+
+                <div class='card-info hidden' id="revealCard">
+                    <div class='card-info__text'>
+                        <span class='card-info__guessed-name' id="resName"></span>
+                        <br>
+                        <span class='card-info__guessed-nick' id="resNick"></span>
+                    </div>
+                    <div class='card-info__extra'>
+                        <span class='card-info__guessed-flag'>
+                            <img src="" style="
+                            height: 15px;
+                            width: 25px;
+                            margin: 0px;
+                            padding: 0px 10px;">
+                        </span>
+                        <span class='card-info__guessed-name'>
+                            
+                        </span>
+                        <span class='card-info__guessed-name'>
+                            
+                        </span>
+                    </div>
+                </div>
+            </div>
+            </center>
+        </div>
+
+        <div class='card hidden' id="resultcard">
+            <center>
+            <div class='card-info'>
+                <img src="" alt='Player image' id="resPic">
+                <div class='card-info__text'>
+                    <span class='card-info__guessed-name' id="resName"></span>
+                    <br>
+                    <span class='card-info__guessed-nick' id="resNick"></span>
+                </div>
+                <div class='card-info__extra'>
+                    <span class='card-info__guessed-flag'>
+                        <img src="" style="
+                        height: 15px;
+                        width: 25px;
+                        margin: 0px;
+                        padding: 0px 10px;">
+                    </span>
+                    <span class='card-info__guessed-name'>
+                        
+                    </span>
+                    <span class='card-info__guessed-name'>
+                        
+                    </span>
+                </div>
+            </div>
+            </center>
+        </div>
+
+        <div class='rules' id="rules">
+            <div class='rules-texts'>
+                <h2>Who are ya? Counter-Strike is a Counter-Strike 2 quiz game</h2>
+                <ul style="list-style-type:disc;">
+                    <li>You have 5 chances to guess the Counter-Strike 2 player from the most known teams from all around the world</li>
+                    <li>After each guess, feedback will be revealed, showing how close your guess is to the mystery CS player in a number of categories.</li>
+                    <li>Green bubbles means that that category is spot on, while a yellow bubble means the guess was close in that category, but not quite right. A blank/white bubble means it is not correct.</li>
+                    <li>Example guess: David 'frozen' Cernansky
+                        <br>
+                        <div class='results-lineup'>
+                            <div class='bubble-lineup'>
+                                <div class='bubble'>
+                                    FaZe
+                                </div>
+                                <div class='yellow-bubble'>
+                                    <img src="https://www.hltv.org/img/static/flags/30x20/SK.gif">
+                                </div>
+                                <div class='green-bubble'>
+                                    Europe
+                                </div>
+                                <div class='green-bubble'>
+                                    Rifler
+                                </div>
+                                <div class='bubble'>
+                                    21
+                                    <div class='age-updown'>
+                                        <i class="fa-solid fa-arrow-up"></i>
+                                    </div>
+                                </div>
+                                <div class='bubble'>
+                                    4
+                                    <div class='major-updown'>
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </div>
+                                </div>
+                                <div class='bubble'>
+                                    1.13
+                                    <div class='top20-updown'>
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class='results-lineup__texts'>
+                                <span class='results-lineup__texts__line'>Team</span>
+                                <span class='results-lineup__texts__line'>Nation</span>
+                                <span class='results-lineup__texts__line'>Region</span>
+                                <span class='results-lineup__texts__line'>Role</span>
+                                <span class='results-lineup__texts__line'>Age</span>
+                                <span class='results-lineup__texts__line'>Major apps</span>
+                                <span class='results-lineup__texts__line'>2024 Rating</span>
+                            </div>
+                        </div>
+
+                        ... Means that the mystery player is European and does not play for FaZe.
+                        However, the player is also a Rifler and they are over the age of 21 whilst having a lower number of major appearances than 4.
+                        <br>
+                        The correct answer would be Justinas 'jL' Lekavicius.
+
+                        <li>Nation stands for the players' nationality while Region stands for the teams' region.
+                             For example, cadiaN would have his nation as Denmark, but his region would be NA, as he currently plays for Team Liquid.
+                        </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="guesses" id="guesses">
+            
+        </div>
+    </body>
+
+    <script src="./script.js"></script>
+</html>
