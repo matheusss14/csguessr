@@ -4,7 +4,7 @@ let SAcountries = [];
 let NAcountries = [];
 let OCAS = [];
 const form = document.getElementById('guess');
-const player = Math.round(Math.random() * (65 - 1) + 1);
+const player = Math.round(Math.random() * (140 - 1) + 1);
 console.log(player)
 
 function start() {
@@ -35,7 +35,7 @@ window.addEventListener('load', () => {
             console.error('Error fetching JSON data:', error);
         });
 
-    fetch('europe.json')
+    fetch('./continents/europe.json')
         .then(response => response.json())
         .then(data => {
             europeCountries = data;
@@ -45,7 +45,7 @@ window.addEventListener('load', () => {
             console.error('Error fetching JSON data:', error);
         });
 
-    fetch('SA.json')
+    fetch('./continents/SA.json')
         .then(response => response.json())
         .then(data => {
             SAcountries = data;
@@ -54,7 +54,7 @@ window.addEventListener('load', () => {
         .catch(error => {
             console.error('Error fetching JSON data:', error);
         });
-    fetch('NA.json')
+    fetch('./continents/NA.json')
         .then(response => response.json())
         .then(data => {
             NAcountries = data;
@@ -63,7 +63,7 @@ window.addEventListener('load', () => {
         .catch(error => {
             console.error('Error fetching JSON data:', error);
         });
-    fetch('as.json')
+    fetch('./continents/as.json')
         .then(response => response.json())
         .then(data => {
             OCAS = data;
@@ -171,6 +171,10 @@ function addNewGuess() {
     const NewResLineup = document.createElement('div');
     NewResLineup.className = 'results-lineup';
 
+    const LineupName = document.createElement("span");
+    LineupName.textContent = result.nick;
+    LineupName.className = "guessedPlayerName";
+
     const NewBblLineup = document.createElement("div");
     NewBblLineup.className = "bubble-lineup";
 
@@ -186,29 +190,25 @@ function addNewGuess() {
     const NewBblNationImg = document.createElement('img')
     NewBblNationImg.src = "https://www.hltv.org/img/static/flags/30x20/" + result.nation + ".gif"
     NewBblNation.className = 'yellow-bubble';
-    if ((isInEurope(`${result.nation}`)) && (isInEurope(player1.nation))) {
+    console.log((result.nation))
+    console.log((player1.nation))
+    if ((isInEurope(`${result.nation}`) == true) && (isInEurope(player1.nation) == true)) {
         NewBblNation.className = 'yellow-bubble';
         console.log("Eu")
-    } else {
-        console.log("not EU")
     }
-    if ((isInSA(`${result.nation}`)) && (isInSA(player1.nation))) {
+    else if ((isInSA(`${result.nation}`) == true) && (isInSA(player1.nation) == true)) {
         NewBblNation.className = 'yellow-bubble';
         console.log("SA")
-    } else {
-        console.log("not SA")
     }
-    if ((isInOCAS(`${result.nation}`)) && (isInOCAS(player1.nation))) {
+    else if ((isInOCAS(`${result.nation}`) == true) && (isInOCAS(player1.nation) == true)) {
         NewBblNation.className = 'yellow-bubble';
         console.log("OCAS")
-    } else {
-        console.log("not OCAS")
     }
-    if ((isInNA(`${result.nation}`)) && (isInNA(player1.nation))) {
+    else if ((isInNA(`${result.nation}`) == true) && (isInNA(player1.nation) == true)) {
         NewBblNation.className = 'yellow-bubble';
         console.log("NA")
     } else {
-        console.log("not NA")
+        NewBblNation.className = "bubble"
     }
     if ((`${result.nation}`) == (player1.nation)) {
         NewBblNation.className = 'green-bubble';
@@ -337,7 +337,7 @@ function addNewGuess() {
     NewBblLineup.appendChild(NewBblMajors);
     NewBblLineup.appendChild(NewBblRating);
 
-
+    NewResLineup.appendChild(LineupName);
     NewResLineup.appendChild(NewBblLineup);
     NewResLineup.appendChild(CommentaryLine);
 

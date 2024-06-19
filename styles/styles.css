@@ -1,0 +1,271 @@
+* {
+    max-width: 100%;
+}
+
+body {
+    background-color: #fff;
+}
+
+.header {
+    width: 100vw;
+    height: 50px;
+    background-color: #000;
+}
+
+.header nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header nav a img {
+    height: 27px;
+    padding: 0px 10px;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font-size: 2rem;
+    font-family: var(--font-kode-mono);
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card .card-info {
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px #000000d1;
+}
+
+.card .card-info img {
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.card .card-info .card-info__text {
+    font-size: 1.5rem;
+    font-family: var(--font-jost-player);
+}
+
+.card-info__extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info__guessed-name {
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 0px 10px;
+    font-family: var(--font-jost-player);
+}
+
+.card-info__guessed-nick {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.card .card-guess {
+    margin-top: 15px;
+}
+
+.card .card-guess input {
+    width: 60%;
+    border: 1px solid #fafafa;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: var(--font-poppins);
+    outline: 1px solid #00000045;
+}
+
+.card .card-guess button {
+    padding: 12px;
+    background-color: #cccccc;
+    border-radius: 8px;
+    text-transform: uppercase;
+    outline: 1px solid #00000045;
+}
+
+.card-guess__complete {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.rules {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.rules .rules-texts {
+    width: 400px;
+    font-family: var(--font-lato);
+}
+
+.rules .rules-texts h2 {
+    font-size: 1.5rem;
+}
+
+.rules .rules-texts ul li {
+    margin: 10px 0px;
+}
+
+.bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--blank-bubble);
+    color: #fff;
+}
+
+.bubble-img {
+    width: 30px;
+    height: 18px;
+}
+
+.bubble-lineup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results-lineup {
+    font-family: var(--font-lato);
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.results-lineup__texts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.results-lineup__texts__line {
+    width: 50px;
+}
+.green-bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--green-bubble);
+    color: #fff;
+}
+
+.yellow-bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow-bubble);
+    color: #fff;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+
+.guesses {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.btStart {
+
+    margin-top: 50px;
+    font-size: 2rem;
+    padding: 25px;
+    background-color: #cccccc;
+    border-radius: 8px;
+    text-transform: uppercase;
+    outline: 1px solid #00000045;
+}
+
+.guessedPlayerName {
+    font-size: 2rem;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .header nav a {
+        font-size: 1.6rem;
+    }
+    .header nav a img {
+        height: 24px;
+        padding: 0px 10px;
+    }
+
+    .rules .rules-texts {
+        width: 80vw;
+    }
+
+    .bubble {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .yellow-bubble {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .green-bubble {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .results-lineup__texts {
+        font-size: 0.8rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .card .card-info {
+        width: 95vw;
+    }
+}

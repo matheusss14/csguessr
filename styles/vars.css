@@ -1,0 +1,41 @@
+:root {
+    /*colors*/
+    --main-text: #161616;
+    --blank-bubble: #b8b8b8;
+    --green-bubble: #45d952;
+    --yellow-bubble: #e8d138;
+
+    /*fonts*/
+
+    .kode-mono-title {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    }
+
+    .jost-player {
+      font-family: "Jost", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 200;
+      font-style: normal;
+    }
+
+    .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+
+    .lato-regular {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
+    --font-kode-mono: "Kode mono", monospace;
+    --font-jost-player: "Jost-player", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-lato: "Lato", sans-serif;
+}
