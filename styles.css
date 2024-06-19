@@ -128,8 +128,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: var(--blank-bubble);
     color: #fff;
 }
@@ -151,13 +151,12 @@ body {
     flex-direction: column;
     align-content: stretch;
     flex-wrap: wrap;
-    width: 400px;
     margin: 20px 0;
 }
 
 .results-lineup__texts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
@@ -170,8 +169,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: var(--green-bubble);
     color: #fff;
 }
@@ -181,8 +180,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: var(--yellow-bubble);
     color: #fff;
 }

@@ -2,9 +2,10 @@ let jsonData = [];
 let europeCountries = [];
 let SAcountries = [];
 let NAcountries = [];
-let OceAsianCountries = [];
+let OCAS = [];
 const form = document.getElementById('guess');
-const player = Math.round(Math.random() * (35 - 1) + 1);
+const player = Math.round(Math.random() * (65 - 1) + 1);
+console.log(player)
 
 function start() {
     const card = document.getElementById('guesscard')
@@ -65,8 +66,8 @@ window.addEventListener('load', () => {
     fetch('as.json')
         .then(response => response.json())
         .then(data => {
-            OceAsianCountries = data;
-            console.log(OceAsianCountries)
+            OCAS = data;
+            console.log(OCAS)
         })
         .catch(error => {
             console.error('Error fetching JSON data:', error);
@@ -158,7 +159,7 @@ function isInNA(country) {
 }
 
 function isInOCAS(country) {
-    const isInOCAS = OceAsianCountries.some(item => item.code === country);
+    const isInOCAS = OCAS.some(item => item.code === country);
     return isInOCAS;
 }
 
@@ -184,18 +185,36 @@ function addNewGuess() {
     NewBblNation.classList.add('bubble')
     const NewBblNationImg = document.createElement('img')
     NewBblNationImg.src = "https://www.hltv.org/img/static/flags/30x20/" + result.nation + ".gif"
-    if (isInEurope(`${result.nation}`)) {
+    if ((isInEurope(`${result.nation}`)) && (isInEurope(player1.nation))) {
         NewBblNation.className = 'yellow-bubble';
+        console.log("Eu")
+    } else {
+        NewBblNation.className = 'bubble';
+        console.log("not EU")
     }
-    if (isInSA(`${result.nation}`)) {
+    if ((isInSA(`${result.nation}`)) && (isInSA(player1.nation))) {
         NewBblNation.className = 'yellow-bubble';
+        console.log("SA")
+    } else {
+        NewBblNation.className = 'bubble';
+        console.log("not SA")
     }
-    if (isInNA(`${result.nation}`)) {
+    if ((isInOCAS(`${result.nation}`)) && (isInOCAS(player1.nation))) {
         NewBblNation.className = 'yellow-bubble';
+        console.log("OCAS")
+    } else {
+        NewBblNation.className = 'bubble';
+        console.log("not OCAS")
     }
-    if (isInOCAS(`${result.nation}`)) {
+    if ((isInNA(`${result.nation}`)) && (isInNA(player1.nation))) {
         NewBblNation.className = 'yellow-bubble';
+        console.log("NA")
+    } else {
+        NewBblNation.className = 'bubble';
+        console.log("not NA")
     }
+    
+    
     if ((`${result.nation}`) == (player1.nation)) {
         NewBblNation.className = 'green-bubble';
     }

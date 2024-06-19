@@ -61,7 +61,7 @@
         "role": "AWP",
         "age": "23",
         "majors": "5",
-        "rating": "1.18",
+        "rating": "1.17",
         "image": "https://img-cdn.hltv.org/playerbodyshot/s8WJZpMPv0YBCr9l8rXJT4.png?ixlib=java-2.1.0&w=400&s=451b9fa69a6d7bf382a975638f274f24"
     },
 
@@ -75,7 +75,7 @@
         "role": "IGL",
         "age": "27",
         "majors": "8",
-        "rating": "1.00",
+        "rating": "0.99",
         "image": "https://img-cdn.hltv.org/playerbodyshot/yeZVQpxTDg2uIl0aDxVvOj.png?ixlib=java-2.1.0&w=400&s=54608c3e25f9bfe966190d42a68cfa45"
     },
     {
@@ -88,7 +88,7 @@
         "role": "Rifler",
         "age": "17",
         "majors": "1",
-        "rating": "1.43",
+        "rating": "1.44",
         "image": "https://img-cdn.hltv.org/playerbodyshot/9KbLeAMmko7ldm2GMGeCno.png?ixlib=java-2.1.0&w=400&s=b5c43301deed964cee978594a6495635"
     },
     {
@@ -141,7 +141,7 @@
         "role": "IGL",
         "age": "31",
         "majors": "18",
-        "rating": "1.00",
+        "rating": "0.97",
         "image": "https://img-cdn.hltv.org/playerbodyshot/Y91mh9-x8Ks9JV-WhO_r91.png?ixlib=java-2.1.0&w=400&s=cc5a5e025a9b787ae55796d83fbd75df"
     },
     {
@@ -154,7 +154,7 @@
         "role": "AWP",
         "age": "23",
         "majors": "7",
-        "rating": "1.37",
+        "rating": "1.36",
         "image": "https://img-cdn.hltv.org/playerbodyshot/RoTpFBevmVDbeCBJLSUV8o.png?ixlib=java-2.1.0&w=400&s=6d65cb68c0cbfbfe0f14d16971615c4b"
     },
     {
@@ -167,7 +167,7 @@
         "role": "Rifler",
         "age": "23",
         "majors": "5",
-        "rating": "1.15",
+        "rating": "1.13",
         "image": "https://img-cdn.hltv.org/playerbodyshot/tLkyuJMkGunXQD7-CAKsFE.png?ixlib=java-2.1.0&w=400&s=a605fe434f8a458fa8c1d20e82e49eaf"
     },
     {
@@ -180,7 +180,7 @@
         "role": "Rifler",
         "age": "20",
         "majors": "3",
-        "rating": "1.13",
+        "rating": "1.12",
         "image": "https://img-cdn.hltv.org/playerbodyshot/7FqEy5LGzqczVMjhE8ZCBd.png?ixlib=java-2.1.0&w=400&s=64095121b4aa4cbd73057f5ae20e890a"
     },
     {
@@ -193,7 +193,7 @@
         "role": "Rifler",
         "age": "25",
         "majors": "3",
-        "rating": "1.03",
+        "rating": "1.02",
         "image": "https://img-cdn.hltv.org/playerbodyshot/lWjJ7ajhajKvfnaOzncFrs.png?ixlib=java-2.1.0&w=400&s=eabd773df715bf2c097e95cd20e0a0ac"
     },
 
@@ -207,7 +207,7 @@
         "role": "IGL",
         "age": "21",
         "majors": "3",
-        "rating": "0.98",
+        "rating": "0.97",
         "image": "https://img-cdn.hltv.org/playerbodyshot/WGeJU1AmjEHJ2-HzgSd1uo.png?ixlib=java-2.1.0&w=400&s=9dbf96209fc14da4866ce483d5d571ab"
     },
     {
@@ -233,7 +233,7 @@
         "role": "AWP",
         "age": "22",
         "majors": "3",
-        "rating": "1.15",
+        "rating": "1.14",
         "image": "https://img-cdn.hltv.org/playerbodyshot/nsF_cyG2CygWfpKVepqk6i.png?ixlib=java-2.1.0&w=400&s=c7a135952f7208f9727615360e48a14b"
     },
     {
@@ -246,7 +246,7 @@
         "role": "Rifler",
         "age": "17",
         "majors": "1",
-        "rating": "1.16",
+        "rating": "1.14",
         "image": "https://img-cdn.hltv.org/playerbodyshot/K3NnOiCYWjUTZ7t6zO4E_e.png?ixlib=java-2.1.0&w=400&s=23fd8a523457e2bf20ac106fcec63210"
     },
     {
@@ -286,7 +286,7 @@
         "role": "AWP",
         "age": "19",
         "majors": "2",
-        "rating": "1.14",
+        "rating": "1.12",
         "image": "https://img-cdn.hltv.org/playerbodyshot/-_UTOwRq10TZ6Fzs_Gp_m1.png?ixlib=java-2.1.0&w=400&s=07067310960a920155ce725b27969258"
     },
     {
@@ -320,12 +320,12 @@
         "name": "Mihai Ivan",
         "nick": "iM",
         "team": "NaVi",
-        "nation": "PL",
+        "nation": "RO",
         "region": "Europe",
         "role": "Rifler",
         "age": "24",
         "majors": "3",
-        "rating": "1.05",
+        "rating": "1.04",
         "image": "https://img-cdn.hltv.org/playerbodyshot/KbJzukpxyrqGUtvR571r1Z.png?ixlib=java-2.1.0&w=400&s=851a2e8cd2886d5a8432be947ce28755"
     },
 
@@ -352,7 +352,7 @@
         "role": "Rifler",
         "age": "27",
         "majors": "13",
-        "rating": "1.17",
+        "rating": "1.16",
         "image": "https://img-cdn.hltv.org/playerbodyshot/eefPmsiMIo4dAiiPUmZE6-.png?ixlib=java-2.1.0&w=400&s=8d9765f9d2c40c13d7bd6c96c45a2849"
     },
     {
@@ -378,7 +378,7 @@
         "role": "Rifler",
         "age": "28",
         "majors": "5",
-        "rating": "1.04",
+        "rating": "1.03",
         "image": "https://img-cdn.hltv.org/playerbodyshot/3dH0n73hE5olzCgXPetK_H.png?ixlib=java-2.1.0&w=400&s=77f0dc3e6ca0595afbf0db6c9f7ae0de"
     },
     {
@@ -391,7 +391,7 @@
         "role": "Rifler",
         "age": "27",
         "majors": "4",
-        "rating": "0.98",
+        "rating": "0.97",
         "image": "https://img-cdn.hltv.org/playerbodyshot/2lVBxT-qpZV0Qbdf-5Vo0S.png?ixlib=java-2.1.0&w=400&s=d145d9489e31efdbe5a9e3dd10ac662c"
     },
 
@@ -405,7 +405,7 @@
         "role": "IGL",
         "age": "25",
         "majors": "7",
-        "rating": "1.10",
+        "rating": "1.07",
         "image": "https://img-cdn.hltv.org/playerbodyshot/wLXVY9VOwVDik_YHmb7ZdB.png?ixlib=java-2.1.0&w=400&s=20fa7012a10144b695ecc4c80b6378e0"
     },
     {
@@ -418,7 +418,7 @@
         "role": "Rifler",
         "age": "23",
         "majors": "5",
-        "rating": "1.15",
+        "rating": "1.12",
         "image": "https://img-cdn.hltv.org/playerbodyshot/f_Ec_Ls7NgW3ZKOIWZsd8P.png?ixlib=java-2.1.0&w=400&s=2bf772ed6854e31e0fe461224f6d662a"
     },
     {
@@ -431,7 +431,7 @@
         "role": "Rifler",
         "age": "21",
         "majors": "2",
-        "rating": "1.08",
+        "rating": "1.09",
         "image": "https://img-cdn.hltv.org/playerbodyshot/iDYivn7rZc3HXoDpAgTCV5.png?ixlib=java-2.1.0&w=400&s=ee48d812ef9d40d49baecea8099de41f"
     },
     {
@@ -444,7 +444,7 @@
         "role": "Rifler",
         "age": "25",
         "majors": "11",
-        "rating": "1.09",
+        "rating": "1.07",
         "image": "https://img-cdn.hltv.org/playerbodyshot/K0Hia2il45Fh81oKWm_ADS.png?ixlib=java-2.1.0&w=400&s=74315585888387207c7d0a6430da8b84"
     },
     {
@@ -457,7 +457,7 @@
         "role": "Rifler",
         "age": "23",
         "majors": "3",
-        "rating": "1.01",
+        "rating": "1.02",
         "image": "https://img-cdn.hltv.org/playerbodyshot/Z06N96cQNYsoPOWAghNF99.png?ixlib=java-2.1.0&w=400&s=381737c18429d3e676b2ebfe43db2926"
     },
 
@@ -471,7 +471,7 @@
         "role": "IGL",
         "age": "28",
         "majors": "16",
-        "rating": "1.15",
+        "rating": "1.13",
         "image": "https://img-cdn.hltv.org/playerbodyshot/K9M49xoheDwWbY8E1pjkna.png?ixlib=java-2.1.0&w=400&s=185342cc45b043d003fa2e22a907b1d4"
     },
     {
@@ -484,7 +484,7 @@
         "role": "Rifler",
         "age": "22",
         "majors": "4",
-        "rating": "1.15",
+        "rating": "1.13",
         "image": "https://img-cdn.hltv.org/playerbodyshot/GHOeYJhnskCRw6WIVple13.png?ixlib=java-2.1.0&w=400&s=61c57ed68882134e02b9826f3b6dfcbd"
     },
     {
@@ -497,7 +497,7 @@
         "role": "Rifler",
         "age": "19",
         "majors": "1",
-        "rating": "1.09",
+        "rating": "1.07",
         "image": "https://img-cdn.hltv.org/playerbodyshot/cgeOv6vteLGk0Al0t5uox7.png?ixlib=java-2.1.0&w=400&s=3a8efef169ff7c4195940ca87d8f5688"
     },
     {
@@ -523,7 +523,7 @@
         "role": "Rifler",
         "age": "22",
         "majors": "0",
-        "rating": "1.02",
+        "rating": "1.03",
         "image": "https://img-cdn.hltv.org/playerbodyshot/i2fsl9vGRvqz-H-6SegqPg.png?ixlib=java-2.1.0&w=400&s=411af22065767c7fe599107662bfa1b4"
     },
 
@@ -537,7 +537,7 @@
         "role": "IGL",
         "age": "25",
         "majors": "3",
-        "rating": "0.98",
+        "rating": "0.96",
         "image": "https://img-cdn.hltv.org/playerbodyshot/Vu4hGRnLdZ4wH6pIGnKeJU.png?ixlib=java-2.1.0&w=400&s=ca0ce7c05f4ceafe92d983b1049e38b1"
     },
     {
@@ -550,7 +550,7 @@
         "role": "Rifler",
         "age": "26",
         "majors": "13",
-        "rating": "1.21",
+        "rating": "1.18",
         "image": "https://img-cdn.hltv.org/playerbodyshot/Iba6Szy_G9atMUElBWwNey.png?ixlib=java-2.1.0&w=400&s=8c389c708aa9d23f5afa24db0613111c"
     },
     {
@@ -563,7 +563,7 @@
         "role": "AWP",
         "age": "23",
         "majors": "2",
-        "rating": "1.12",
+        "rating": "1.09",
         "image": "https://img-cdn.hltv.org/playerbodyshot/3SdibZ_oqucJUBCConvz-i.png?ixlib=java-2.1.0&w=400&s=5422f7ad3bc727f4bfe598b74938ecc0"
     },
     {
@@ -576,7 +576,7 @@
         "role": "Rifler",
         "age": "23",
         "majors": "4",
-        "rating": "1.04",
+        "rating": "1.02",
         "image": "https://img-cdn.hltv.org/playerbodyshot/A2o6WpEnqH_48Bl7207VGL.png?ixlib=java-2.1.0&w=400&s=a19e556d8483d5e262d80278465c9441"
     },
     {
@@ -589,7 +589,7 @@
         "role": "Rifler",
         "age": "24",
         "majors": "3",
-        "rating": "0.98",
+        "rating": "0.92",
         "image": "https://img-cdn.hltv.org/playerbodyshot/VKFlZiSR6INFsY08K7RVqH.png?ixlib=java-2.1.0&w=400&s=baaab85f806f09cf63c9a7b525f7264a"
     },
 
@@ -603,7 +603,7 @@
         "role": "Rifler",
         "age": "24",
         "majors": "2",
-        "rating": "1.14",
+        "rating": "1.11",
         "image": "https://img-cdn.hltv.org/playerbodyshot/p2ui-oB_FlhR2L2RNeHikb.png?ixlib=java-2.1.0&w=400&s=2193962a383663295f2edb17cb82ac5b"
     },
     {
@@ -616,7 +616,7 @@
         "role": "Rifler",
         "age": "23",
         "majors": "5",
-        "rating": "1.11",
+        "rating": "1.07",
         "image": "https://img-cdn.hltv.org/playerbodyshot/H6wkX8j5rZq8-iYdXlSp62.png?ixlib=java-2.1.0&w=400&s=78132abf6300d7f587350b08457000cb"
     },
     {
@@ -642,7 +642,7 @@
         "role": "Rifler",
         "age": "25",
         "majors": "5",
-        "rating": "1.07",
+        "rating": "1.05",
         "image": "https://img-cdn.hltv.org/playerbodyshot/fbrXHp9_MmP7FL-vZx842P.png?ixlib=java-2.1.0&w=400&s=165fcfd1a79e50e9596db8c05d0fd318"
     },
     {
@@ -655,7 +655,205 @@
         "role": "IGL",
         "age": "24",
         "majors": "2",
-        "rating": "0.98",
+        "rating": "0.97",
         "image": "https://img-cdn.hltv.org/playerbodyshot/Y1RXDxZCxkvoLuV7t7mBTv.png?ixlib=java-2.1.0&w=400&s=da12ddfc71f9eed05406b8733edacd16"
+    },
+
+    {
+        "id": "51",
+        "name": "Casper Moller",
+        "nick": "cadiaN",
+        "team": "Liquid",
+        "nation": "DK",
+        "region": "NA",
+        "role": "IGL",
+        "age": "28",
+        "majors": "8",
+        "rating": "1.00",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/7DJYBJ5MxiWc76bHttWAco.png?ixlib=java-2.1.0&w=400&s=5b0eda85ee898b92fd7d0565d745703d"
+    },
+    {
+        "id": "52",
+        "name": "Russel Van Dulken",
+        "nick": "Twistzz",
+        "team": "Liquid",
+        "nation": "CA",
+        "region": "NA",
+        "role": "Rifler",
+        "age": "24",
+        "majors": "8",
+        "rating": "1.18",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/O0JbrYF9sspJceC0hM0jRt.png?ixlib=java-2.1.0&w=400&s=2f83d74055d3425baee2737238590c32"
+    },
+    {
+        "id": "53",
+        "name": "Keith Markovic",
+        "nick": "NAF",
+        "team": "Liquid",
+        "nation": "CA",
+        "region": "NA",
+        "role": "IGL",
+        "age": "26",
+        "majors": "10",
+        "rating": "1.15",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/wwELW47IRAT_pbSH5e024a.png?ixlib=java-2.1.0&w=400&s=459ce84392af8024538ad73dfbd63cff"
+    },
+    {
+        "id": "54",
+        "name": "Mareks Galinskis",
+        "nick": "YEKINDAR",
+        "team": "Liquid",
+        "nation": "LV",
+        "region": "NA",
+        "role": "Rifler",
+        "age": "24",
+        "majors": "4",
+        "rating": "1.00",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/huUP9pVJp0e3gi5bLr1bYr.png?ixlib=java-2.1.0&w=400&s=1fb1d0febac8356d7531eff05b1b2e4e"
+    },
+    {
+        "id": "55",
+        "name": "Felipe Medeiros",
+        "nick": "skullz",
+        "team": "Liquid",
+        "nation": "BR",
+        "region": "NA",
+        "role": "Rifler",
+        "age": "22",
+        "majors": "1",
+        "rating": "0.97",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/0ry8GNGPidN3WcSyj_t1sN.png?ixlib=java-2.1.0&w=400&s=e424090c9c67f40b1edf019acc411337"
+    },
+
+    {
+        "id": "56",
+        "name": "Garidmagnai Byambasuren",
+        "nick": "bLitz",
+        "team": "MongolZ",
+        "nation": "MN",
+        "region": "OCE/AS",
+        "role": "IGL",
+        "age": "22",
+        "majors": "4",
+        "rating": "1.10",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/bgaxJB3kWr3OejHcS4rhm7.png?ixlib=java-2.1.0&w=400&s=f42c1ba188c350b8d4d425a0a05dd41c"
+    },
+    {
+        "id": "57",
+        "name": "Munkhbold Azbayar",
+        "nick": "Senzu",
+        "team": "MongolZ",
+        "nation": "MN",
+        "region": "OCE/AS",
+        "role": "Rifler",
+        "age": "17",
+        "majors": "1",
+        "rating": "1.13",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/0q_OPVsZtOj-29Awc4jRHe.png?ixlib=java-2.1.0&w=400&s=14b3b5e80139cb32b93a31991a0346b8"
+    },
+    {
+        "id": "58",
+        "name": "Usukhbayar Banzragch",
+        "nick": "910",
+        "team": "MongolZ",
+        "nation": "MN",
+        "region": "OCE/AS",
+        "role": "AWP",
+        "age": "21",
+        "majors": "1",
+        "rating": "1.10",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/uz-PtYiFNdrsOMYG5G8Pnk.png?ixlib=java-2.1.0&w=400&s=88497515a1b85006f17b4a8f5fcd3488"
+    },
+    {
+        "id": "59",
+        "name": "Sodbayar Munkhbold",
+        "nick": "Techno",
+        "team": "MongolZ",
+        "nation": "MN",
+        "region": "OCE/AS",
+        "role": "Rifler",
+        "age": "19",
+        "majors": "4",
+        "rating": "1.03",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/cY_ySI_wvpUh1-VxpZSR7W.png?ixlib=java-2.1.0&w=400&s=485afe45b90c37529d617e995e60000c"
+    },
+    {
+        "id": "60",
+        "name": "Ayush Batbold",
+        "nick": "mzinho",
+        "team": "MongolZ",
+        "nation": "MN",
+        "region": "OCE/AS",
+        "role": "Rifler",
+        "age": "16",
+        "majors": "1",
+        "rating": "0.99",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/GFch2hc4GQf-HwXyVjPBiT.png?ixlib=java-2.1.0&w=400&s=70266c2202f24d86cb9d78a796d280fb"
+    },
+
+    {
+        "id": "61",
+        "name": "Maximiliano Gonzalez",
+        "nick": "max",
+        "team": "9z",
+        "nation": "UY",
+        "region": "SA",
+        "role": "IGL",
+        "age": "25",
+        "majors": "2",
+        "rating": "0.99",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/mRD7pCGE7LRL0bRoeJ2V7H.png?ixlib=java-2.1.0&w=400&s=b45471deae28ea8312ec8974d907c34f"
+    },
+    {
+        "id": "62",
+        "name": "Franco Garcia",
+        "nick": "dgt",
+        "team": "9z",
+        "nation": "UY",
+        "region": "SA",
+        "role": "Rifler",
+        "age": "23",
+        "majors": "2",
+        "rating": "1.15",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/97CEwNfiy5NAeB8JF2KZsv.png?ixlib=java-2.1.0&w=400&s=9c21cab6b13dfaef84366dac0d85a029"
+    },
+    {
+        "id": "63",
+        "name": "Antonio Martinez",
+        "nick": "MartinezSa",
+        "team": "9z",
+        "nation": "ES",
+        "region": "SA",
+        "role": "AWP",
+        "age": "23",
+        "majors": "0",
+        "rating": "1.20",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/Qk4jbhYKxo8tSp8-OG1097.png?ixlib=java-2.1.0&w=400&s=3c9165e5a9c5419388ae965339c63a38"
+    },
+    {
+        "id": "64",
+        "name": "Matias Ibanez Hernandez",
+        "nick": "HUASOPEEK",
+        "team": "9z",
+        "nation": "CL",
+        "region": "SA",
+        "role": "Rifler",
+        "age": "21",
+        "majors": "0",
+        "rating": "1.06",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/tizLaN2fghMa6bl9vcHh_i.png?ixlib=java-2.1.0&w=400&s=4a5a045e4e70a460b66e664460d60645"
+    },
+    {
+        "id": "65",
+        "name": "Nicolas Kramer",
+        "nick": "buda",
+        "team": "9z",
+        "nation": "AR",
+        "region": "SA",
+        "role": "Rifler",
+        "age": "21",
+        "majors": "1",
+        "rating": "0.91",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/FfWZH9LgF4fLnEHs9wUTEV.png?ixlib=java-2.1.0&w=400&s=4ed96f639206eb569a129ded68235296"
     }
 ]
