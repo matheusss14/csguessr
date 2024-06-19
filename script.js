@@ -185,36 +185,31 @@ function addNewGuess() {
     NewBblNation.classList.add('bubble')
     const NewBblNationImg = document.createElement('img')
     NewBblNationImg.src = "https://www.hltv.org/img/static/flags/30x20/" + result.nation + ".gif"
+    NewBblNation.className = 'yellow-bubble';
     if ((isInEurope(`${result.nation}`)) && (isInEurope(player1.nation))) {
         NewBblNation.className = 'yellow-bubble';
         console.log("Eu")
     } else {
-        NewBblNation.className = 'bubble';
         console.log("not EU")
     }
     if ((isInSA(`${result.nation}`)) && (isInSA(player1.nation))) {
         NewBblNation.className = 'yellow-bubble';
         console.log("SA")
     } else {
-        NewBblNation.className = 'bubble';
         console.log("not SA")
     }
     if ((isInOCAS(`${result.nation}`)) && (isInOCAS(player1.nation))) {
         NewBblNation.className = 'yellow-bubble';
         console.log("OCAS")
     } else {
-        NewBblNation.className = 'bubble';
         console.log("not OCAS")
     }
     if ((isInNA(`${result.nation}`)) && (isInNA(player1.nation))) {
         NewBblNation.className = 'yellow-bubble';
         console.log("NA")
     } else {
-        NewBblNation.className = 'bubble';
         console.log("not NA")
     }
-    
-    
     if ((`${result.nation}`) == (player1.nation)) {
         NewBblNation.className = 'green-bubble';
     }
